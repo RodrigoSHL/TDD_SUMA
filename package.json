@@ -5,5 +5,12 @@
   "main": "index.js",
   "repository": "https://github.com/RodrigoSHL/TDD_ADD.git",
   "author": "Rodrigo Catalan",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "express": "^4.17.1"
+  }
 }
