@@ -1,0 +1,9 @@
+{
+  "name": "tdd_adding",
+  "version": "1.0.0",
+  "description": "testing tdd",
+  "main": "index.js",
+  "repository": "https://github.com/RodrigoSHL/TDD_ADD.git",
+  "author": "Rodrigo Catalan",
+  "license": "MIT"
+}
