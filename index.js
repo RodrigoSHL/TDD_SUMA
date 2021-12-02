@@ -25,6 +25,15 @@ app.post('/', async (req, res) => {
   res.send(data)
 })
 
+app.put('/:id', async (req, res) => {
+  const {body} =req
+  const {id} = req.params
+
+  await axios.put(`https://jsonplaceholder.typicode.com/users/${id}`, body)
+  res.sendStatus(204);
+
+});
+
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
